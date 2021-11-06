@@ -1,0 +1,10 @@
+.home {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  min-height: 85vh;
+}
+.home > div > a > img {
+  height: 100px;
+}
